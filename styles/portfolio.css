@@ -109,7 +109,8 @@ main {
     justify-content: center; */
 
 }
-main section{
+
+main section {
     margin-top: 130px;
 
 }
@@ -169,8 +170,24 @@ main section{
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
+
 /* summery related container */
-.section-column-container{
+.resume-content {
     display: flex;
-    justify-content: space-around;
+    gap: 50px;
+
+}
+
+.title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+.resume-content hr{
+    margin: 30px;
 }
