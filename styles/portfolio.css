@@ -184,10 +184,42 @@ main section {
     font-weight: 700;
 
 }
-.resume-button{
+
+.resume-button {
     margin-top: 50px;
     text-align: center;
 }
-.resume-content hr{
+
+.resume-content hr {
     margin: 30px;
+}
+
+/* footer styles */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: #FFF8F3;
+    margin-top: 120px;
+    padding: 130px 230px;
+
+}
+.social-link{
+    margin-right: 24px;
+}
+
+.footer-column {
+    width: 50%;
+    gap: 100px;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 28px 35px;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+
 }
